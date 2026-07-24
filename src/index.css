@@ -1,19 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 :root {
-  /* Brand Colors */
-  --primary-blue: #0254a4;
-  --primary-dark: #003080;
-  --primary-darker: #001f5c;
-  --primary-light: #1a6bdb;
-  --accent-blue: #2196F3;
-  --navy: #0a1628;
-  --navy-light: #132240;
-  --dark-bg: #0d1b33;
+ /* EDF Brand Colors */
+--primary-blue: #0B6B3A;      /* EDF Green */
+--primary-dark: #08552E;      /* Dark Green */
+--primary-darker: #063D21;    /* Deep Green */
+--primary-light: #2E8B57;     /* Light Green */
+
+--accent-blue: #C9A227;       /* EDF Gold */
+
+--navy: #1F3A2D;              /* Deep Forest */
+--navy-light: #2D4E3C;
+--dark-bg: #173325;
 
   /* Neutrals */
   --white: #ffffff;
-  --off-white: #f5f7fa;
+  --off-white: #FAFBF8;
   --light-gray: #f0f2f5;
   --gray-100: #e8ecf1;
   --gray-200: #d1d5db;
@@ -21,18 +23,21 @@
   --gray-400: #6b7280;
   --gray-500: #4b5563;
   --gray-600: #374151;
-  --text-dark: #1a1a2e;
-  --text-body: #4a5568;
+  --text-dark: #1F2D24;
+  --text-body: #4D5B52;
   --text-muted: #718096;
 
-  /* Accents */
-  --green: #10b981;
-  --green-light: #d1fae5;
-  --red: #ef4444;
-  --red-light: #fee2e2;
-  --orange: #f59e0b;
-  --orange-light: #fef3c7;
-  --accent-yellow: #ffc107;
+ /* Accents */
+--green: #0B6B3A;
+--green-light: #EAF6EE;
+
+--red: #C0392B;
+--red-light: #FDEDEC;
+
+--orange: #C9A227;
+--orange-light: #FFF8E6;
+
+--accent-yellow: #D4AF37;
 
   /* Typography */
   --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
