@@ -92,8 +92,8 @@ function Header() {
       <nav className="header__nav" ref={dropdownRef}>
         <div className="container header__nav-inner">
           <Link to="/" className="header__logo">
-            <img src={logo} alt="Alkhidmat Foundation Lahore" />
-          </Link>
+  <img src={logo} alt="Efe-Oghene Development Foundation (EDF)" />
+</Link>
 
           <ul className="header__menu">
             {navItems.map((item, index) => (
