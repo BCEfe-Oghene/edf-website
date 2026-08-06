@@ -1,0 +1,74 @@
+# Query: Alkhidmat 
+# ContextLines: 1
+
+16 results - 8 files
+
+run_website.bat:
+  1  @echo off
+  2: echo Starting EDF  Lahore website...
+  3  start cmd /k "npm run dev"
+
+src/components/home/ImpactStatistics.jsx:
+  18              src={impactStatsImg}
+  19:             alt="EDF Impact Statistics"
+  20              className="impact-stats-img"
+
+src/components/home/LatestNews.jsx:
+   25                  <span className="news-badge badge-blue">FIELD UPDATE</span>
+   26:                 <h3>EDF Team Provides Relief in Flood-Hit Areas of Sindh</h3>
+   27                  <span className="news-date">May 28, 2025</span>
+
+  118                      </div>
+  119:                     <strong>Efe-Oghene Developmenat Foundation</strong>
+  120                    </div>
+
+src/components/home/Partners.jsx:
+  19      location: 'PESHAWAR, KPK',
+  20:     title: 'EDF Welfare Complex Peshawar',
+  21      bgClass: 'bg-project-3'
+
+  37      location: 'GILGIT, BALTISTAN',
+  38:     title: 'EDF Welfare Hospital Gilgit',
+  39      bgClass: 'bg-project-6'
+
+src/components/layout/Footer.jsx:
+   44                <h4>Location</h4>
+   45:               <p>EDF Markaz, 106/M Block Gulberg<br />III Lahore, Punjab, Pakistan.</p>
+   46              </div>
+
+   67            <div className="footer__col footer__col-brand">
+   68:             <img src={logo} alt="Efe-Oghene Developmenat Foundation" className="footer__logo" />
+   69              <p className="footer__desc">
+   70:               Efe-Oghene Developmenat Foundation is one of the leading, non-profit organizations, fully dedicated to humanitarian services since 2026.
+   71              </p>
+
+  136          <div className="container footer__bottom-inner">
+  137:           <p>© 1990–2026 Efe-Oghene Developmenat Foundation. All Rights Reserved.</p>
+  138            <div className="footer__bottom-links">
+
+src/pages/AboutUs.jsx:
+   13              <p className="about-hero__desc">
+   14:               For over three decades, Efe-Oghene Developmenat Foundation has been working relentlessly to uplift lives and build stronger, more resilient communities across Pakistan.
+   15              </p>
+
+  108                  <h3>The Genesis Foundation</h3>
+  109:                 <p>Efe-Oghene Developmenat Foundation was established with a mission to serve humanity selflessly.</p>
+  110                </div>
+
+  153                  <strong>Dr. Hafiz Muhammad Saad</strong>
+  154:                 <span>President, Efe-Oghene Developmenat Foundation</span>
+  155                </div>
+
+src/pages/BanoQabil.jsx:
+  165                <p className="bq-about__desc">
+  166:                 Bano Qabil is an initiative by Efe-Oghene Developmenat Foundation offering completely free IT and digital skills education to empower youth with modern technology and prepare them for a successful future.
+  167                </p>
+
+  257                      <strong>Office</strong>
+  258:                     <p>Efe-Oghene Developmenat Foundation Head Office<br/>3km Khayaban-e-Jinnah, Lahore, Pakistan</p>
+  259                    </div>
+
+src/pages/ContactUs.jsx:
+  170            referrerPolicy="no-referrer-when-downgrade"
+  171:           title="Efe-Oghene Developmenat Foundation Abuja Office Location"
+  172          ></iframe>

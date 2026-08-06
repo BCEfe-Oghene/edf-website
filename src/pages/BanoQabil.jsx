@@ -40,7 +40,7 @@ const admissionSteps = [
 const whyChoose = [
   { id: 1, title: 'Free Education', desc: '100% free quality education for everyone regardless of background.', icon: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg> },
   { id: 2, title: 'Career Opportunities', desc: 'We help you unlock better career and freelancing opportunities.', icon: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg> },
-  { id: 3, title: 'Nationwide Network', desc: '175+ IT centers in 65 districts across Pakistan.', icon: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg> },
+  { id: 3, title: 'Nationwide Network', desc: '175+ IT centers in 65 districts across Nigeria.', icon: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg> },
   { id: 4, title: 'Expert Trainers', desc: 'Learn from industry experts and experienced professionals.', icon: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg> },
   { id: 5, title: 'Practical Projects', desc: 'Work on real-world projects to build your portfolio.', icon: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg> },
   { id: 6, title: 'Recognized Certifications', desc: 'Receive certificates that add value to your career.', icon: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg> },
@@ -273,7 +273,7 @@ function BanoQabil() {
                   </div>
                   <div>
                     <strong>Phone</strong>
-                    <p>+92 32 8888 8515</p>
+                    <p>+234 70 3286 0750</p>
                   </div>
                 </div>
                 <div className="bq-contact__item">

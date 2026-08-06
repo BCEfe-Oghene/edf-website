@@ -1,12 +1,12 @@
 import educationImg from '../assets/education.png';
 import zakatImg from '../assets/heroimg.png';
 import washImg from '../assets/wash.png';
-import healthImg from '../assets/health.png';
-import humanitarianImg from '../assets/humanitarian.png';
+import healthImg from '../assets/healthcare.png';
+import humanitarianImg from '../assets/humanitarian_response.png';
 
 export const campaigns = [
   {
-    {
+    
   id: "education",
   label: "Education",
   category: "EDUCATION",
@@ -46,7 +46,7 @@ export const campaigns = [
     badges: ["Zakat Eligible", "Shariah Compliant", "Secure Donation"]
   },
   {
-    {
+    
   id: "wash",
   label: "WASH",
   category: "WATER, SANITATION & HYGIENE",
@@ -102,9 +102,7 @@ export const campaigns = [
   category: "HUMANITARIAN RESPONSE",
 
   heroHeadingPrefix: "RESTORING\n",
-
   heroHighlight: "HOPE",
-
   heroHeadingSuffix: " DURING CRISIS",
 
   heroDescription:
@@ -120,19 +118,5 @@ export const campaigns = [
   formCause: "Humanitarian Response",
 
   badges: ["Emergency Relief", "Protection", "Recovery"]
-},
-  {
-    id: "emergency-relief",
-    label: "Emergency Relief",
-    category: "EMERGENCY RESPONSE",
-    heroHeadingPrefix: "WHEN CRISIS STRIKES\nWE RESPOND\nWITH ",
-    heroHighlight: "HUMANITY",
-    heroHeadingSuffix: "",
-    heroDescription: "Support rapid humanitarian response for families affected by disasters, displacement, and unexpected emergencies.",
-    image: emergencyImg,
-    donationTitle: "Emergency Relief",
-    donationDescription: "Responding quickly to save lives and support families in times of crisis.",
-    formCause: "Emergency Relief",
-    badges: ["Rapid Response", "Emergency Support", "Secure Donation"]
-  }
+}
 ];

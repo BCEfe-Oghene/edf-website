@@ -23,8 +23,8 @@ function LatestNews() {
               <div className="news-card__bg bg-flood"></div>
               <div className="news-card__content">
                 <span className="news-badge badge-blue">FIELD UPDATE</span>
-                <h3>Alkhidmat Team Provides Relief in Flood-Hit Areas of Sindh</h3>
-                <span className="news-date">May 28, 2025</span>
+                <h3>EDF Team Provides Relief in Flood-Hit Areas of Abuja</h3>
+                <span className="news-date">June 28, 2026</span>
               </div>
             </div>
             

@@ -10,7 +10,7 @@ function ImpactStatistics() {
           <div className="section-tag">OUR OPERATIONAL FOOTPRINT</div>
           <h2 className="section-title">The Measurable Impact of Your Trust</h2>
           <p className="section-subtitle">
-            Every contribution is systematically translated into direct humanitarian assistance and sustainable development across all provinces of Pakistan.
+            Every contribution is systematically translated into direct humanitarian assistance and sustainable development across all provinces of Nigeria.
           </p>
         </div>
         <div className="impact-image-wrapper">

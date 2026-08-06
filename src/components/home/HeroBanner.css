@@ -1,394 +1,728 @@
-.hero-banner {
-  position: relative;
-  padding: 50px 0 120px; /* Reduced top padding, kept bottom for donation overlap */
-  background-color: var(--white);
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-}
+/* ==========================================================
+   EDF HERO BANNER
+   Efe-Oghene Development Foundation
+========================================================== */
 
-/* TITLE STYLING */
-.hero-banner__title {
-  font-size: 3.5rem;
-  font-weight: 800;
-  color: var(--navy);
-  margin: 0 0 24px;
-  line-height: 1.2;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
+.hero-banner {
+    position: relative;
+    overflow: hidden;
+    padding: 70px 0 120px;
+    background: linear-gradient(
+        135deg,
+        #ffffff 0%,
+        #f7fbf8 40%,
+        #eef8f2 100%
+    );
 }
-.hero-banner__title-desktop { display: inline; }
-.hero-banner__title-mobile { display: none; }
 
 .hero-banner__bg-overlay {
-  position: absolute;
-  inset: 0;
- background: radial-gradient(circle at top right, rgba(11, 107, 58, 0.08) 0%, rgba(255, 255, 255, 0) 50%);
-  pointer-events: none;
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(circle at top right,
+        rgba(11,107,58,.08) 0%,
+        rgba(11,107,58,0) 45%),
+        radial-gradient(circle at bottom left,
+        rgba(200,165,70,.10) 0%,
+        rgba(200,165,70,0) 40%);
+    pointer-events: none;
 }
 
-.hero-banner__inner {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 40px;
-  position: relative;
-  z-index: 10;
+.hero-banner__inner{
+    position:relative;
+    z-index:2;
+
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:70px;
 }
 
+/* ===========================
+   LEFT CONTENT
+=========================== */
 
-.hero-banner__desc {
-  font-size: 1.1rem;
-  line-height: 1.6;
-  color: var(--text-body);
-  margin-bottom: 32px;
-  max-width: 500px;
-  animation: fadeUp 0.6s ease-out 0.1s forwards;
-  opacity: 0;
+.hero-banner__content{
+    flex:1;
+    max-width:650px;
 }
 
-.hero-banner__actions {
-  display: flex;
-  gap: 16px;
-  margin-bottom: 48px;
-  animation: fadeUp 0.6s ease-out 0.2s forwards;
-  opacity: 0;
+.hero-banner__title{
+
+    font-size:3.8rem;
+    font-weight:800;
+    line-height:1.15;
+
+    margin-bottom:28px;
+
+    color:#163D2D;
+
+    letter-spacing:-1px;
 }
 
-.btn-primary {
-  background-color: var(--primary-blue);
-  color: var(--white);
-  border: none;
+.hero-banner__title-desktop{
+    display:inline;
 }
 
-.btn-primary:hover {
-  background-color: var(--primary-dark);
-  box-shadow: 0 4px 12px rgba(11, 107, 58, 0.3);
+.hero-banner__title-mobile{
+    display:none;
 }
 
-.hero-banner__stats {
-  display: flex;
-  align-items: center;
-  gap: 30px;
-  animation: fadeUp 0.6s ease-out 0.3s forwards;
-  opacity: 0;
+.text-primary{
+    color:#0B6B3A;
 }
 
-.hero-banner__stat-item {
-  display: flex;
-  align-items: center;
-  gap: 16px;
+.hero-banner__desc{
+
+    font-size:1.1rem;
+    line-height:1.8;
+
+    color:#4D5B56;
+
+    max-width:560px;
+
+    margin-bottom:38px;
 }
 
-.hero-banner__avatars {
-  display: flex;
-  margin-right: 8px;
+/* ===========================
+   BUTTONS
+=========================== */
+
+.hero-banner__actions{
+
+    display:flex;
+    gap:18px;
+
+    margin-bottom:50px;
 }
 
-.avatar {
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
-  border: 2px solid var(--white);
-  background-color: var(--gray-200);
-  margin-left: -12px;
+.btn-primary{
+
+    background:linear-gradient(
+        135deg,
+        #0B6B3A,
+        #0F8A4A
+    );
+
+    color:white;
+
+    border:none;
+
+    border-radius:50px;
+
+    padding:16px 34px;
+
+    font-weight:700;
+
+    transition:.35s ease;
+
+    box-shadow:
+    0 15px 30px rgba(11,107,58,.18);
 }
 
-.avatar:first-child {
-  margin-left: 0;
-  background-color: var(--primary-blue);
+.btn-primary:hover{
+
+    transform:translateY(-4px);
+
+    background:linear-gradient(
+        135deg,
+        #09592F,
+        #0B6B3A
+    );
+
+    box-shadow:
+    0 18px 35px rgba(11,107,58,.28);
 }
 
-.avatar-2 { background-color: var(--yellow); }
-.avatar-3 { background-color: #06b6d4; }
-.avatar-4 { background-color: #ec4899; }
+.btn-secondary{
 
-.hero-banner__stat-info h3 {
-  font-size: 1.4rem;
-  font-weight: 800;
-  color: var(--navy);
-  margin: 0;
-  line-height: 1;
+    border:2px solid #0B6B3A;
+
+    color:#0B6B3A;
+
+    background:white;
+
+    border-radius:50px;
+
+    padding:16px 34px;
+
+    font-weight:700;
+
+    transition:.3s;
 }
 
-.hero-banner__stat-info p {
-  font-size: 0.8rem;
-  color: var(--text-muted);
-  margin: 4px 0 0;
+.btn-secondary:hover{
+
+    background:#0B6B3A;
+
+    color:white;
+}
+/* ==========================================================
+   HERO STATISTICS
+========================================================== */
+
+.hero-banner__stats{
+
+    display:flex;
+    align-items:center;
+    gap:32px;
+
+    margin-top:10px;
 }
 
-.hero-banner__stat-divider {
-  width: 1px;
-  height: 40px;
-  background-color: var(--gray-200);
+.hero-banner__stat-item{
+
+    display:flex;
+    align-items:center;
+    gap:18px;
 }
 
-/* RIGHT CONTENT: Visual Collage */
-.hero-banner__visual {
-  flex: 0 0 34%;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
+.hero-banner__avatars{
+
+    display:flex;
 }
 
-.hero-collage {
-  position: relative;
-  width: 100%;
-  max-width: 500px;
+.avatar{
+
+    width:40px;
+    height:40px;
+
+    border-radius:50%;
+
+    border:3px solid #fff;
+
+    margin-left:-12px;
+
+    box-shadow:0 6px 18px rgba(0,0,0,.08);
+
+    transition:.3s;
 }
 
-/* RESPONSIVE */
-@media (max-width: 1200px) {
-  .hero-banner__title { font-size: 3rem; }
-  .hero-collage { max-width: 450px; }
+.avatar:first-child{
+
+    margin-left:0;
 }
 
-@media (max-width: 992px) {
-  .hero-banner__inner {
-    flex-direction: column;
-    text-align: center;
-  }
-  
-  .hero-banner__content {
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .hero-banner__stats {
-    justify-content: center;
-  }
-  
-  .hero-banner__visual {
-    width: 100%;
-    justify-content: center;
-    margin-top: 40px;
-  }
-  
-  .hero-collage {
-    max-width: 400px; /* scale down on tablet */
-  }
+.avatar:hover{
+
+    transform:translateY(-4px);
+}
+
+/* EDF colours */
+
+.avatar-1{
+
+    background:#0B6B3A;
+}
+
+.avatar-2{
+
+    background:#C8A546;
+}
+
+.avatar-3{
+
+    background:#34A853;
+}
+
+.avatar-4{
+
+    background:#173D2D;
+}
+
+.hero-banner__stat-info h3{
+
+    margin:0;
+
+    font-size:1.65rem;
+
+    font-weight:800;
+
+    color:#0B6B3A;
+
+    line-height:1;
+}
+
+.hero-banner__stat-info p{
+
+    margin-top:6px;
+
+    color:#697873;
+
+    font-size:.9rem;
+
+    line-height:1.4;
+}
+
+.hero-banner__stat-divider{
+
+    width:1px;
+    height:48px;
+
+    background:#D8E2DC;
+}
+
+/* ==========================================================
+   RIGHT SIDE
+========================================================== */
+
+.hero-banner__visual{
+
+    flex:0 0 38%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+}
+
+.hero-collage{
+
+    position:relative;
+
+    width:250%;
+
+    max-width:420px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    animation:fadeInScale .8s ease forwards;
+}
+
+/* Organic background */
+
+.hero-collage__bg-shape{
+
+    position:absolute;
+
+    inset:-8%;
+
+    z-index:0;
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(11,107,58,.10),
+            rgba(200,165,70,.12)
+        );
+
+    filter:blur(2px);
+
+    border-radius:42% 58% 65% 35% /
+                  38% 31% 69% 62%;
+}
+
+/* Main Image */
+
+.hero-collage__main-img{
+
+    position:relative;
+
+    z-index:2;
+
+    width:100%;
+
+    max-width:560px;
+
+    object-fit:contain;
+
+    border-radius:24px;
+
+    box-shadow:
+        0 25px 60px rgba(0,0,0,.15);
+
+    transition:.4s ease;
+}
+
+.hero-collage__main-img:hover{
+
+    transform:translateY(-8px) scale(1.02);
+}
+/* ==========================================================
+   ANIMATIONS
+========================================================== */
+
+.hero-banner__content{
+    animation:slideLeft .8s ease forwards;
+}
+
+.hero-banner__visual{
+    animation:slideRight .9s ease forwards;
+}
+
+.hero-banner__stats{
+    animation:fadeUp 1s ease .35s forwards;
+    opacity:0;
+}
+
+.hero-banner__actions{
+    animation:fadeUp .8s ease .2s forwards;
+    opacity:0;
+}
+
+.hero-banner__desc{
+    animation:fadeUp .8s ease .1s forwards;
+    opacity:0;
+}
+
+@keyframes slideLeft{
+
+    from{
+
+        opacity:0;
+
+        transform:translateX(-40px);
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateX(0);
+    }
+}
+
+@keyframes slideRight{
+
+    from{
+
+        opacity:0;
+
+        transform:translateX(40px);
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateX(0);
+    }
+}
+
+@keyframes fadeUp{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(30px);
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+    }
+}
+
+@keyframes fadeInScale{
+
+    from{
+
+        opacity:0;
+
+        transform:scale(.95);
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:scale(1);
+    }
+}
+
+/* ==========================================================
+   LARGE DESKTOP
+========================================================== */
+
+@media (max-width:1200px){
+
+.hero-banner__title{
+
+    font-size:3.3rem;
+}
+
+.hero-banner__inner{
+
+    gap:50px;
+}
+
+.hero-collage{
+
+    max-width:470px;
+}
 
 }
 
+/* ==========================================================
+   TABLET
+========================================================== */
 
+@media (max-width:992px){
 
+.hero-banner{
 
-
-.text-primary {
-  color: var(--primary-blue);
+    padding:70px 0 100px;
 }
 
-.hero-banner__desc {
-  font-size: 1.1rem;
-  line-height: 1.6;
-  color: var(--text-body);
-  margin-bottom: 32px;
-  max-width: 500px;
-  animation: fadeUp 0.6s ease-out 0.1s forwards;
-  opacity: 0;
+.hero-banner__inner{
+
+    flex-direction:column;
+
+    text-align:center;
 }
 
-.hero-banner__actions {
-  display: flex;
-  gap: 16px;
-  margin-bottom: 48px;
-  animation: fadeUp 0.6s ease-out 0.2s forwards;
-  opacity: 0;
+.hero-banner__content{
+
+    max-width:100%;
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
 }
 
-.btn-primary {
-  background-color: #0254A4;
-  color: var(--white);
-  border: none;
+.hero-banner__title{
+
+    font-size:3rem;
 }
 
-.btn-primary:hover {
-  background-color: #013e7b;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(2, 84, 164, 0.3);
+.hero-banner__desc{
+
+    max-width:700px;
 }
 
-.hero-banner__stats {
-  display: flex;
-  align-items: center;
-  gap: 30px;
-  animation: fadeUp 0.6s ease-out 0.3s forwards;
-  opacity: 0;
+.hero-banner__actions{
+
+    justify-content:center;
+
+    flex-wrap:wrap;
 }
 
-.hero-banner__stat-item {
-  display: flex;
-  align-items: center;
-  gap: 16px;
+.hero-banner__stats{
+
+    justify-content:center;
 }
 
-.hero-banner__avatars {
-  display: flex;
-  margin-right: 8px;
+.hero-banner__visual{
+
+    width:100%;
+
+    margin-top:50px;
 }
 
-.avatar {
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
-  border: 2px solid var(--white);
-  background-color: var(--gray-200);
-  margin-left: -12px;
+.hero-collage{
+
+    max-width:420px;
 }
 
-.avatar:first-child {
-  margin-left: 0;
-  background-color: var(--primary-blue);
+}
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media (max-width:768px){
+
+.hero-banner{
+
+    padding:60px 0 90px;
 }
 
-.avatar-2 { background-color: var(--yellow); }
-.avatar-3 { background-color: #06b6d4; }
-.avatar-4 { background-color: #ec4899; }
+.hero-banner__title{
 
-.hero-banner__stat-info h3 {
-  font-size: 1.4rem;
-  font-weight: 800;
-  color: var(--navy);
-  margin: 0;
-  line-height: 1;
+    font-size:2.5rem;
+
+    line-height:1.2;
 }
 
-.hero-banner__stat-info p {
-  font-size: 0.8rem;
-  color: var(--text-muted);
-  margin: 4px 0 0;
+.hero-banner__desc{
+
+    font-size:1rem;
+
+    line-height:1.7;
 }
 
-.hero-banner__stat-divider {
-  width: 1px;
-  height: 40px;
-  background-color: var(--gray-200);
+.hero-banner__actions{
+
+    width:100%;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    gap:14px;
 }
 
-/* RIGHT CONTENT: Visual Collage */
-.hero-banner__visual {
-  flex: 0 0 34%;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
+.btn-primary,
+.btn-secondary{
+
+    width:100%;
+
+    max-width:320px;
+
+    justify-content:center;
 }
 
-.hero-collage {
-  position: relative;
-  width: 100%;
-  max-width: 500px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  animation: fadeInScale 0.8s ease-out forwards;
+.hero-banner__stats{
+
+    flex-direction:column;
+
+    gap:22px;
 }
 
-.hero-collage__bg-shape {
-  position: absolute;
-  inset: -8%;
-  background-color: rgba(11, 107, 58, 0.08);/* Brand blue light blob */
-  z-index: 0;
-  -webkit-mask-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%23000' d='M46.7,-77.6C59.6,-69.1,68.6,-53.4,76.5,-38.4C84.3,-23.3,91.1,-8.8,87.9,3.7C84.7,16.2,71.5,26.7,60.8,38.6C50.1,50.4,41.9,63.6,29.8,70.6C17.7,77.7,1.8,78.6,-13.6,75.4C-29,72.2,-43.8,65,-55.8,54.7C-67.7,44.5,-76.8,31.2,-81.4,16.5C-86,1.8,-86.1,-14.2,-79.8,-27.9C-73.6,-41.6,-61,-52.9,-46.8,-61C-32.5,-69,-16.3,-73.9,0.7,-75.1C17.7,-76.2,33.8,-86,46.7,-77.6Z' transform='translate(100 100)' /%3E%3C/svg%3E");
-  mask-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%23000' d='M46.7,-77.6C59.6,-69.1,68.6,-53.4,76.5,-38.4C84.3,-23.3,91.1,-8.8,87.9,3.7C84.7,16.2,71.5,26.7,60.8,38.6C50.1,50.4,41.9,63.6,29.8,70.6C17.7,77.7,1.8,78.6,-13.6,75.4C-29,72.2,-43.8,65,-55.8,54.7C-67.7,44.5,-76.8,31.2,-81.4,16.5C-86,1.8,-86.1,-14.2,-79.8,-27.9C-73.6,-41.6,-61,-52.9,-46.8,-61C-32.5,-69,-16.3,-73.9,0.7,-75.1C17.7,-76.2,33.8,-86,46.7,-77.6Z' transform='translate(100 100)' /%3E%3C/svg%3E");
-  -webkit-mask-size: cover;
-  mask-size: cover;
-  -webkit-mask-position: center;
-  mask-position: center;
-  -webkit-mask-repeat: no-repeat;
-  mask-repeat: no-repeat;
+.hero-banner__stat-divider{
+
+    width:70%;
+
+    height:1px;
 }
 
-.hero-collage__main-img {
-  position: relative;
-  width: 100%;
-  height: auto;
-  max-width: 100%;
-  object-fit: contain;
-  max-height: 350px;
-  z-index: 1;
+.hero-collage{
+
+    max-width:360px;
 }
 
-/* ANIMATIONS */
-@keyframes fadeUp {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
 }
 
-@keyframes fadeInScale {
-  from { opacity: 0.5; transform: scale(0.98); }
-  to { opacity: 1; transform: scale(1); }
+/* ==========================================================
+   SMALL PHONES
+========================================================== */
+
+@media (max-width:576px){
+
+.hero-banner{
+
+    padding:50px 0 80px;
 }
 
-/* RESPONSIVE */
-@media (max-width: 1200px) {
-  .hero-banner__title { font-size: 3rem; }
-  .hero-collage { max-width: 450px; }
+.hero-banner__title{
+
+    font-size:2.1rem;
 }
 
-@media (max-width: 992px) {
-  .hero-banner__inner {
-    flex-direction: column;
-    text-align: center;
-  }
-  
-  .hero-banner__content {
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .hero-banner__stats {
-    justify-content: center;
-  }
-  
-  .hero-banner__visual {
-    width: 100%;
-    justify-content: center;
-    margin-top: 40px;
-  }
-  
-  .hero-collage {
-    max-width: 400px; /* scale down on tablet */
-  }
+.hero-banner__desc{
+
+    font-size:.95rem;
 }
 
-@media (max-width: 576px) {
-  .hero-banner { padding: 60px 0 120px; }
-  .hero-banner__title { font-size: 2.2rem; }
-  .hero-banner__stats {
-    flex-direction: column;
-    gap: 20px;
-  }
-  .hero-banner__stat-divider {
-    width: 80%;
-    height: 1px;
-  }
-  .hero-collage {
-    max-width: 350px;
-    margin: 0 auto;
-  }
+.hero-collage{
+
+    max-width:300px;
 }
 
-@media (min-width: 993px) {
-  .hero-banner__content {
-    flex: 0 0 68%;
-    max-width: 1100px;
-  }
+.avatar{
 
-  .hero-banner__visual {
-    flex: 0 0 32%;
-  }
+    width:34px;
 
-  .hero-banner__title-desktop {
-    display: inline;
-  }
-
-  .hero-banner__title-mobile {
-    display: none;
-  }
+    height:34px;
 }
+
+.hero-banner__stat-info h3{
+
+    font-size:1.35rem;
+}
+
+.hero-banner__stat-info p{
+
+    font-size:.8rem;
+}
+
+}
+
+/* ==========================================================
+   ACCESSIBILITY
+========================================================== */
+
+.btn-primary:focus,
+.btn-secondary:focus{
+
+    outline:3px solid rgba(200,165,70,.45);
+
+    outline-offset:4px;
+}
+
+/* ==========================================================
+   REDUCED MOTION
+========================================================== */
+
+@media (prefers-reduced-motion:reduce){
+
+*{
+
+    animation:none !important;
+
+    transition:none !important;
+
+    scroll-behavior:auto !important;
+}
+
+}
+
+/* ==========================================================
+   IMAGE OPTIMISATION
+========================================================== */
+
+.hero-collage img{
+
+    display:block;
+
+    width:100%;
+}
+
+/* ==========================================================
+   SUBTLE DECORATIVE ACCENTS
+========================================================== */
+
+.hero-banner::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:280px;
+
+    height:280px;
+
+    border-radius:50%;
+
+    background:rgba(200,165,70,.08);
+
+    top:-120px;
+
+    right:-120px;
+
+    filter:blur(6px);
+}
+
+.hero-banner::after{
+
+    content:"";
+
+    position:absolute;
+
+    width:220px;
+
+    height:220px;
+
+    border-radius:50%;
+
+    background:rgba(11,107,58,.05);
+
+    bottom:-100px;
+
+    left:-80px;
+
+    filter:blur(8px);
+}
+
+/* ==========================================================
+   END OF EDF HERO BANNER
+========================================================== */

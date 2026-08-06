@@ -16,8 +16,8 @@ function Footer() {
             </div>
             <div className="footer__contact-content">
               <h4>Support Email</h4>
-              <a href="mailto:info@alkhidmat.com.pk">info@alkhidmat.com.pk</a>
-              <a href="mailto:admin@alkhidmat.com.pk">admin@alkhidmat.com.pk</a>
+              <a href="mailto:info@edffoundation.org">info@edffoundation.org</a>
+              <a href="mailto:info@edffoundation.org">info@edffoundation.org</a>
             </div>
           </div>
 
@@ -29,8 +29,9 @@ function Footer() {
             </div>
             <div className="footer__contact-content">
               <h4>Phone Support</h4>
-              <a href="tel:+923000771601">+92 300 0771601</a>
-              <a href="tel:+924235441516">+92 42 35441516</a>
+              <a href="tel:+2347032860750">+234 70 32860750</a>
+              <a href="tel:+2347032860750">+234 70 32860750</a>
+              <a href="tel:+">+234 70 32860750</a>
             </div>
           </div>
 
@@ -42,7 +43,7 @@ function Footer() {
             </div>
             <div className="footer__contact-content">
               <h4>Location</h4>
-              <p>Alkhidmat Markaz, 106/M Block Gulberg<br />III Lahore, Punjab, Pakistan.</p>
+              <p>No.6 Ben Ayade Crescent, Jahi Abuja.<br />FCT Nigeria.</p>
             </div>
           </div>
 
@@ -67,7 +68,7 @@ function Footer() {
           <div className="footer__col footer__col-brand">
             <img src={logo} alt="Alkhidmat Foundation Pakistan" className="footer__logo" />
             <p className="footer__desc">
-              Alkhidmat Foundation Pakistan is one of the leading, non-profit organizations, fully dedicated to humanitarian services since 1990.
+              Efe-Oghene Development Foundation is one of the leading, non-profit organizations, fully dedicated to humanitarian services since 2026.
             </p>
             <div className="footer__socials">
               <a href="#" aria-label="Facebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
@@ -134,7 +135,7 @@ function Footer() {
       {/* Bottom Bar */}
       <div className="footer__bottom">
         <div className="container footer__bottom-inner">
-          <p>© 1990–2026 Alkhidmat Foundation Pakistan. All Rights Reserved.</p>
+          <p>© 1990–2026 Alkhidmat Foundation Nigeria. All Rights Reserved.</p>
           <div className="footer__bottom-links">
             <a href="#">Privacy Policy</a>
             <span className="divider">|</span>

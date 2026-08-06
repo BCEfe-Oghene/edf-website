@@ -4,20 +4,20 @@ import './Partners.css';
 const projects = [
   {
     id: 1,
-    location: 'KARACHI',
+    location: 'GWAGWALADA',
     title: 'Aghosh Complex Karachi',
     bgClass: 'bg-project-1'
   },
   {
     id: 2,
-    location: 'THARPARKAR, SINDH',
+    location: 'JAHI 2',
     title: 'Tharparkar Water Desalination Plant',
     bgClass: 'bg-project-2'
   },
   {
     id: 3,
-    location: 'PESHAWAR, KPK',
-    title: 'Alkhidmat Welfare Complex Peshawar',
+    location: 'BWARI, KWALI',
+    title: 'EDF Welfare Complex',
     bgClass: 'bg-project-3'
   },
   {
@@ -47,7 +47,7 @@ function Partners() {
         <span className="section-tag">NATION BUILDING</span>
         <h2 className="section-title">Engineering Sustainable Infrastructure</h2>
         <p className="section-subtitle mx-auto">
-          Building state-of-the-art facilities and essential infrastructure that uplift communities, restore dignity, and create lasting impact across Pakistan.
+          Building state-of-the-art facilities and essential infrastructure that uplift communities, restore dignity, and create lasting impact across Nigeria.
         </p>
       </div>
 

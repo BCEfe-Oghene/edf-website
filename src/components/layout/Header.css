@@ -1,7 +1,7 @@
 /* ===== TOP BAR ===== */
 .header__topbar {
-  background: var(--primary-blue);
-  color: var(--white);
+  background: #0B6B3A !important;
+  color: #FFFFFF !important;
   font-size: 0.8rem;
   padding: 8px 0;
 }
@@ -87,12 +87,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 72px;
+  height: 88px;
 }
 
 .header__logo img {
-  height: 150px;
+  height: 90px;
   width: auto;
+  display: block;
 }
 
 /* ===== DESKTOP MENU ===== */
@@ -131,7 +132,7 @@
   left: 14px;
   right: 14px;
   height: 2px;
-  background: var(--primary-blue);
+  background: var(--primary-green);
   border-radius: 2px;
 }
 
@@ -200,7 +201,7 @@
 
 .header__dropdown-link:hover {
   background: var(--off-white);
-  color: var(--primary-blue);
+  color: var(--primary-green);
   padding-left: 28px;
 }
 
@@ -223,7 +224,7 @@
 }
 
 .header__donate-btn,
-.header__appointment-btn {
+.header__Partner With Us-btn {
   width: 145px;
   justify-content: center;
   padding: 10px 0;
@@ -232,7 +233,7 @@
 }
 
 .header__donate-btn {
-  background: var(--primary-blue);
+  background: var(--primary-green);
 }
 
 /* ===== HAMBURGER ===== */
@@ -316,7 +317,7 @@
 
 .header__mobile-link:hover {
   background: var(--off-white);
-  color: var(--primary-blue);
+  color: var(--primary-green);
 }
 
 .header__mobile-chevron {
@@ -393,11 +394,11 @@
   }
 
   .header__nav-inner {
-    height: 64px;
+    height: 100px;
   }
 
   .header__logo img {
-    height: 44px;
+    height: 80px;
   }
 }
 

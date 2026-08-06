@@ -4,7 +4,11 @@ import DonationPanel from './DonationPanel';
 import { campaigns } from '../../data/campaigns';
 
 function CampaignHeroSection() {
-  const [activeCampaignIndex, setActiveCampaignIndex] = useState(0);
+  const defaultCampaign = campaigns.findIndex(c => c.id === "education");
+
+const [activeCampaignIndex, setActiveCampaignIndex] = useState(
+  defaultCampaign >= 0 ? defaultCampaign : 0
+);
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
 
   // Auto-rotate campaigns

@@ -16,7 +16,7 @@ function SuccessStories() {
               80,000+ Global Volunteers
             </h2>
             <p className="volunteer-section__desc">
-              Alkhidmat's power lies in its hands-on network. From disaster rescue operations to local educational bootcamps, our volunteers are on the ground making real-time differences every day.
+              EDF's power lies in its hands-on network. From disaster rescue operations to local educational bootcamps, our volunteers are on the ground making real-time differences every day.
             </p>
             
             <div className="volunteer-section__actions">
@@ -91,17 +91,17 @@ function SuccessStories() {
               <p className="cause-intro__desc">
                 Every contribution helps us continue our mission of serving humanity through essential programs and initiatives.
               </p>
-              <a href="#" className="btn-link">Explore All Programs &rarr;</a>
+              <a href="#" className="btn-link">Explore EDF Programmes &rarr;</a>
             </div>
             
             <div className="cause-card cause-card--large cause-card--dark">
               <div className="cause-card__bg bg-gaza"></div>
               <div className="cause-card__content">
                 <span className="badge badge-yellow">URGENT APPEAL</span>
-                <h3>Rebuild Gaza</h3>
+                <h3>Rebuild Nigeria</h3>
                 <p>Help families rebuild their lives and restore hope for a better future.</p>
                 <a href="#" className="btn btn-white">
-                  Donate Now
+                  Support EDF
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="var(--primary-blue)"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
                 </a>
               </div>
@@ -113,7 +113,7 @@ function SuccessStories() {
                   <div className="cause-icon icon-blue"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"></path></svg></div>
                   <h3>Health Services</h3>
                   <p>Providing quality healthcare services to underserved communities.</p>
-                  <a href="#" className="link-arrow">Donate Now &rarr;</a>
+                  <a href="#" className="link-arrow">Support EDF &rarr;</a>
                </div>
             </div>
             
@@ -123,7 +123,7 @@ function SuccessStories() {
                   <div className="cause-icon icon-cyan"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path></svg></div>
                   <h3>Clean Water Projects</h3>
                   <p>Delivering clean water and sanitation facilities to communities in need.</p>
-                  <a href="#" className="link-arrow">Donate Now &rarr;</a>
+                  <a href="#" className="link-arrow">Support EDF &rarr;</a>
                </div>
             </div>
             
@@ -133,7 +133,7 @@ function SuccessStories() {
                   <div className="cause-icon icon-green"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg></div>
                   <h3>Orphan Sponsorship</h3>
                   <p>Supporting orphaned children with education, care, and a brighter future.</p>
-                  <a href="#" className="link-arrow">Donate Now &rarr;</a>
+                  <a href="#" className="link-arrow">Support EDF &rarr;</a>
                </div>
             </div>
 
@@ -143,7 +143,7 @@ function SuccessStories() {
                   <div className="cause-icon icon-yellow"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg></div>
                   <h3>Education Support</h3>
                   <p>Providing quality education and resources to underprivileged children.</p>
-                  <a href="#" className="link-arrow">Donate Now &rarr;</a>
+                  <a href="#" className="link-arrow">Support EDF &rarr;</a>
                </div>
             </div>
             

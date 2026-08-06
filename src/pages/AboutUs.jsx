@@ -8,10 +8,10 @@ function AboutUs() {
       <section className="about-hero">
         <div className="container about-hero__inner">
           <div className="about-hero__content">
-            <span className="badge badge-blue">ABOUT ALKHIDMAT</span>
+            <span className="badge badge-blue">ABOUT EDF</span>
             <h1 className="about-hero__title">Empowering Communities, Restoring Dignity.</h1>
             <p className="about-hero__desc">
-              For over three decades, Alkhidmat Foundation Pakistan has been working relentlessly to uplift lives and build stronger, more resilient communities across Pakistan.
+              For over three decades, Efe-Oghene Development Foundation has been working relentlessly to uplift lives and build stronger, more resilient communities across Nigeria.
             </p>
             <div className="about-hero__actions">
               <a href="#journey" className="btn btn-primary">Explore Our Journey &rarr;</a>
@@ -117,7 +117,7 @@ function AboutUs() {
               <div className="timeline-text text-right">
                 <span className="timeline-year">1997</span>
                 <h3>Expanding Humanitarian Services</h3>
-                <p>Expanded our services to education, healthcare, and social welfare programs across Pakistan.</p>
+                <p>Expanded our services to education, healthcare, and social welfare programs across Nigeria.</p>
               </div>
               <div className="timeline-img" style={{background: '#94a3b8'}}></div>
             </div>
