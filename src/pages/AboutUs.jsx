@@ -106,7 +106,7 @@ function AboutUs() {
               <div className="timeline-text">
                 <span className="timeline-year">1990</span>
                 <h3>The Genesis Foundation</h3>
-                <p>Alkhidmat Foundation Pakistan was established with a mission to serve humanity selflessly.</p>
+                <p>Efe-Oghene Development Foundation Nigeria was established with a mission to serve humanity selflessly.</p>
               </div>
             </div>
           </div>
@@ -151,7 +151,7 @@ function AboutUs() {
             <div className="president-signature">
               <div>
                 <strong>Dr. Hafiz Muhammad Saad</strong>
-                <span>President, Alkhidmat Foundation Pakistan</span>
+                <span>President, Efe-Oghene Development Foundation</span>
               </div>
               <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Signature_placeholder.svg" alt="Signature" style={{height: '40px', opacity: 0.5}} />
             </div>

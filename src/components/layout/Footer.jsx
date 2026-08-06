@@ -66,7 +66,7 @@ function Footer() {
       <div className="footer__main">
         <div className="container footer__main-inner">
           <div className="footer__col footer__col-brand">
-            <img src={logo} alt="Alkhidmat Foundation Pakistan" className="footer__logo" />
+            <img src={logo} alt="Efe-Oghene Development Foundation" className="footer__logo" />
             <p className="footer__desc">
               Efe-Oghene Development Foundation is one of the leading, non-profit organizations, fully dedicated to humanitarian services since 2026.
             </p>
@@ -135,7 +135,7 @@ function Footer() {
       {/* Bottom Bar */}
       <div className="footer__bottom">
         <div className="container footer__bottom-inner">
-          <p>© 1990–2026 Alkhidmat Foundation Nigeria. All Rights Reserved.</p>
+          <p>© 2026 Efe-Oghene Development Foundation Nigeria. All Rights Reserved.</p>
           <div className="footer__bottom-links">
             <a href="#">Privacy Policy</a>
             <span className="divider">|</span>

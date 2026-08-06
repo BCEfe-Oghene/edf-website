@@ -47,7 +47,7 @@ function SuccessStories() {
                 </div>
                 <div>
                   <strong>Across</strong>
-                  <span>Pakistan & Beyond</span>
+                  <span>Nigeria & Beyond</span>
                 </div>
               </div>
               

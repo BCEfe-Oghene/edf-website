@@ -108,7 +108,7 @@ function BanoQabil() {
                 with <span className="text-highlight">Free IT Education</span>
               </h1>
               <p className="bq-hero__desc">
-                Join Pakistan's largest free IT education initiative and build your career with industry-focused digital skills.
+                Join Nigeria's largest free IT education initiative and build your career with industry-focused digital skills.
               </p>
               <div className="bq-hero__actions">
                 <a href="#enroll" className="btn btn-primary">
@@ -161,9 +161,9 @@ function BanoQabil() {
             </div>
             <div className="bq-about__content">
               <span className="section-tag section-tag--blue">ABOUT BANO QABIL</span>
-              <h2 className="section-title">Empowering Pakistan's Youth</h2>
+              <h2 className="section-title">Empowering Nigerian's Youth</h2>
               <p className="bq-about__desc">
-                Bano Qabil is an initiative by Alkhidmat Foundation Pakistan offering completely free IT and digital skills education to empower youth with modern technology and prepare them for a successful future.
+                Bano Qabil is an initiative by Efe-Oghene Development Foundation Nigeria offering completely free IT and digital skills education to empower youth with modern technology and prepare them for a successful future.
               </p>
               <ul className="bq-features-list">
                 {features.map((feature, index) => (
@@ -255,7 +255,7 @@ function BanoQabil() {
                   </div>
                   <div>
                     <strong>Office</strong>
-                    <p>Alkhidmat Foundation Head Office<br/>3km Khayaban-e-Jinnah, Lahore, Pakistan</p>
+                    <p>Alkhidmat Foundation Head Office<br/>3km Khayaban-e-Jinnah, Lahore, Nigeria</p>
                   </div>
                 </div>
                 <div className="bq-contact__item">
