@@ -81,22 +81,28 @@ Build Stronger Communities
           <div className="featured-causes__grid">
             
             <div className="cause-intro">
-              <span className="section-tag section-tag--yellow">FEATURED CAUSES</span>
-              <h2 className="cause-intro__title">Your Support Creates Lasting Impact</h2>
-              <p className="cause-intro__desc">
-                Every contribution helps us continue our mission of serving humanity through essential programs and initiatives.
-              </p>
-              <a href="#" className="btn-link">Explore EDF Programmes &rarr;</a>
+             <span className="section-tag section-tag--yellow">
+  OUR FOCUS AREAS
+</span>
+
+<h2 className="cause-intro__title">
+  Creating Sustainable Change Across Nigeria
+</h2>
+
+<p className="cause-intro__desc">
+  EDF works alongside communities, governments, development partners, and supporters to improve lives through sustainable programmes that address education, healthcare, WASH, humanitarian response, research, and community empowerment.
+</p>
+              <a href="#" className="btn-link">Explore Our Programmes &rarr;</a>
             </div>
             
             <div className="cause-card cause-card--large cause-card--dark">
               <div className="cause-card__bg bg-gaza"></div>
               <div className="cause-card__content">
                 <span className="badge badge-yellow">URGENT APPEAL</span>
-                <h3>Rebuild Nigeria</h3>
-                <p>Help families rebuild their lives and restore hope for a better future.</p>
+                <h3>Building Stronger Communities</h3>
+                <p>Supporting communities through integrated programmes in education, healthcare, WASH, humanitarian response, and sustainable development.</p>
                 <a href="#" className="btn btn-white">
-                  Support EDF
+                  Partner With EDF
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="var(--primary-blue)"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
                 </a>
               </div>
