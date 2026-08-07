@@ -9,7 +9,7 @@ export const programs = [
     label: 'Education',
     href: '/programmes/education',
     image: educationImg,
-    description: 'Improving access to quality education, scholarships, digital learning, and youth empowerment.'
+    description: 'Expanding access to quality education through scholarships, digital learning, literacy programmes, school improvement initiatives, and youth empowerment.'
   },
 
   {
@@ -23,27 +23,27 @@ export const programs = [
     label: 'Healthcare',
     href: '/programmes/healthcare',
     image: healthImg,
-    description: 'Community healthcare, medical outreach, disease prevention, maternal and child health services.'
+  description: 'Strengthening primary healthcare through medical outreach, disease prevention, maternal and child health, health education, and community-based healthcare services.'
   },
 
   {
     label: 'Humanitarian Response',
     href: '/programmes/humanitarian-response',
     image: humanitarianImg,
-    description: 'Emergency relief, disaster response, food assistance, shelter, and recovery programmes.'
+    description: 'Providing timely emergency relief, disaster response, food assistance, shelter support, protection services, and long-term recovery for vulnerable communities.'
   },
 
-  {
-    label: 'Livelihoods',
-    href: '/programmes/livelihoods',
-    image: livelihoodsImg,
-    description: 'Skills development, entrepreneurship, vocational training, and economic empowerment.'
-  },
+   {
+  label: 'Community Empowerment',
+  href: '/programmes/community-empowerment',
+  image: livelihoodsImg,
+  description: 'Empowering individuals and communities through skills development, entrepreneurship, vocational training, leadership, social inclusion, and sustainable economic opportunities.'
+},
 
   {
     label: 'Research & Innovation',
     href: '/programmes/research-innovation',
     image: researchImg,
-    description: 'Research, policy advocacy, innovation, climate resilience, and sustainable development.'
+    description: 'Driving evidence-based research, policy advocacy, innovation, climate resilience, and sustainable development solutions that create lasting community impact.'
   }
 ];

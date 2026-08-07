@@ -7,16 +7,20 @@ function ImpactStatistics() {
     <section className="impact-statistics section">
       <div className="container">
         <div className="text-center mb-5">
-          <div className="section-tag">OUR OPERATIONAL FOOTPRINT</div>
-          <h2 className="section-title">The Measurable Impact of Your Trust</h2>
-          <p className="section-subtitle">
-            Every contribution is systematically translated into direct humanitarian assistance and sustainable development across all provinces of Nigeria.
-          </p>
+         <div className="section-tag">OUR IMPACT</div>
+
+<h2 className="section-title">
+  Creating Lasting Change Through Community Action
+</h2>
+
+<p className="section-subtitle">
+  Efe-Oghene Development Foundation works with communities, governments, development partners, and supporters to deliver sustainable solutions in education, WASH, healthcare, humanitarian response, research, and community empowerment across Nigeria.
+</p>
         </div>
         <div className="impact-image-wrapper">
           <img
             src={impactStatsImg}
-            alt="Alkhidmat Foundation Impact Statistics"
+            alt="Efe-Oghene Development Foundation Impact Statistics"
             className="impact-stats-img"
             width="1712"
             height="716"
